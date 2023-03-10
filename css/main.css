@@ -1,44 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.nav__container {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px 80px; 
-}
-
-.nav__logo {
-  margin-right: auto;
-  align-items: center;
-}
-
-.nav__logo-header {
-  font-size: 14px;
-  color: #335576;
-}
-
-.nav__links {
-  
-}
-
-.nav__link-title {
-  padding: 0px 20px;
-}
-
-.nav__link {
-  display: inline;
-  font-size: 12px;
-}
-
-.nav__link-item {
-  padding: 0px 5px;
-  text-decoration: none;
-  color: black;
-}
-
 .nav__link-item--hover {
   border-bottom: 3px solid #DB7A4E;
   padding: 5px 0px; 
@@ -77,6 +36,9 @@
 }
 
 .hero__image-logo {
-  
 
+}
+
+.hero__image {
+  width: 500px;
 }
