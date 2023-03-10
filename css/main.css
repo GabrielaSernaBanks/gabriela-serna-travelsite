@@ -42,3 +42,22 @@
 .hero__image {
   width: 500px;
 }
+
+landing-cards__container {
+  display: flex;
+}
+
+.card__hawaii {
+  width: 400px;
+  height: 300px;
+}
+
+.card__iceland {
+  width: 400px;
+  height: 300px;
+}
+
+.card__greece {
+  width: 400px;
+  height: 300px;
+}
