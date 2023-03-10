@@ -45,4 +45,5 @@ html, body {
 
 footer {
   height: 200px;
+  display: flex;
 }
