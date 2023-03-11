@@ -65,28 +65,37 @@
 .recommendation__cards {
   display: flex;
   justify-content: space-evenly;
-  margin: 40px 100px;
   border: 1px;
   border-radius: 5px;
 }
 
-.card__hawaii {
+.recommendation__card-location {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.recommendation__card-hawaii {
   background-image: url(../assets/Images/hawaii.jpg);
   background-size: cover;
   height: 300px;
   width: 200px;
 }
 
-.card__iceland {
+.recommendation__card-iceland {
   background-image: url(../assets/Images/iceland.jpg);
   background-size: cover;
   height: 300px;
   width: 200px;
 }
 
-.card__greece {
+.recommendation__card-greece {
   background-image: url(../assets/Images/greece.jpg);
   background-size: cover;
   height: 300px;
   width: 200px;
+}
+
+.recommendation__card-location-header {
+  display: flex;
 }
