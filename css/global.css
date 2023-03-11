@@ -50,28 +50,47 @@ footer {
   display: flex;
   justify-content: space-evenly;
   color: #335576;
+  align-items: center;
 }
 
 
-h2, .footer__contact-header {
+h2 {
   font-family: Verdana;
   font-weight: bold;
   font-size: 18px;
 }
 
+
 .footer__contact-hours {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  margin-right: 150px;
 }
 
 .footer__contact-hours1 {
   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
+
+.gg {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.ff {
+  display: flex;
+  flex-direction: row;
+}
+
 
 .footer__contact-info {
   font-family: Verdana;
   font-size: 12px;
   color: #DB7A4E;
+  padding: 20px 0;
 }
 
 .footer__contact-icon {
@@ -83,4 +102,10 @@ h2, .footer__contact-header {
   width: 15px;
 }
 
+.social {
+  margin-bottom: 40px;
+}
 
+.hours {
+  margin-left: 10px;
+}

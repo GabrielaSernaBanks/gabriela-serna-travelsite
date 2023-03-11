@@ -79,8 +79,9 @@
   background-size: cover;
   height: 300px;
   width: 200px;
-  border: 1px;
+  border: 1px solid black;
   border-radius: 5px;
+  box-shadow: 10px 10px 10px 0.25;
 }
 
 .recommendation__card-iceland {
