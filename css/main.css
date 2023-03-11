@@ -48,7 +48,7 @@
   flex-direction: column;
 }
 
-.cards__container {
+/* .cards__container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -57,4 +57,36 @@
 .card__image {
   width: 250px;
   height: 300px;
+} */
+.recommendations__container {
+  display: flex;
+}
+
+.recommendation__cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 100px;
+  border: 1px;
+  border-radius: 5px;
+}
+
+.card__hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+}
+
+.card__iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 200px;
+}
+
+.card__greece {
+  background-image: url(../assets/Images/greece.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 200px;
 }
