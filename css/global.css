@@ -50,5 +50,25 @@ footer {
   display: flex;
   justify-content: space-evenly;
   color: #335576;
-
 }
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer__contact-header {
+  font-family: Verdana;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+
+

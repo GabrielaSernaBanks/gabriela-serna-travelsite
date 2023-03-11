@@ -16,11 +16,10 @@
   font-size: 40px;
   color: #335576;
   padding-bottom: 30px;
-  padding: ;
 }
 
 .hero__info {
-  width: 60%;
+  width: 70%;
   padding-top: 80px;
 
 }
@@ -46,6 +45,7 @@
 .recommendations__container {
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 
 /* .cards__container {
@@ -58,15 +58,14 @@
   width: 250px;
   height: 300px;
 } */
-.recommendations__container {
-  display: flex;
+.recommendations__container-header {
+  padding: 20px;
 }
 
 .recommendation__cards {
   display: flex;
-  justify-content: space-evenly;
-  border: 1px;
-  border-radius: 5px;
+  justify-content: space-around;
+  margin: 40px 200px;
 }
 
 .recommendation__card-location {
@@ -80,6 +79,8 @@
   background-size: cover;
   height: 300px;
   width: 200px;
+  border: 1px;
+  border-radius: 5px;
 }
 
 .recommendation__card-iceland {
@@ -87,6 +88,8 @@
   background-size: cover;
   height: 300px;
   width: 200px;
+  border: 1px;
+  border-radius: 5px;
 }
 
 .recommendation__card-greece {
@@ -94,6 +97,8 @@
   background-size: cover;
   height: 300px;
   width: 200px;
+  border: 1px;
+  border-radius: 5px;
 }
 
 .recommendation__card-location-header {
