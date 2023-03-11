@@ -9,6 +9,7 @@ html, body {
 }
 
 .nav__container {
+  background-color: #FFFFFF;
   display: flex;
   justify-content: flex-end;
   padding: 10px 80px; 
@@ -44,6 +45,10 @@ html, body {
 }
 
 footer {
+  background-color: #FEFAF5;
   height: 200px;
   display: flex;
+  justify-content: space-evenly;
+  color: #335576;
+
 }
