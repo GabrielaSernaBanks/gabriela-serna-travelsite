@@ -1,0 +1,23 @@
+
+.hawaii-main__container {
+  background-image: url(../assets/Images/hawaii.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.hawaii-main__header {
+
+}
+
+.itinerary-cards__container {
+  display: flex;
+}
+
+.itinerary-card__friday {
+  background-color: azure;
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 0.25;
+}
