@@ -25,8 +25,9 @@ html, body {
   color: #335576;
 }
 
-.nav__links {
-  
+.nav__link-item--hover {
+  border-bottom: 3px solid #DB7A4E;
+  padding: 5px 0px; 
 }
 
 .nav__link-title {
@@ -42,15 +43,6 @@ html, body {
   padding: 0px 5px;
   text-decoration: none;
   color: black;
-}
-
-footer {
-  background-color: #FEFAF5;
-  height: 200px;
-  display: flex;
-  justify-content: space-evenly;
-  color: #335576;
-  align-items: center;
 }
 
 h1 {
@@ -70,45 +62,64 @@ h2 {
   font-size: 18px;
 }
 
-.main__container-header {
-
+footer {
+  background-color: #FEFAF5;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #335576;
+  align-items: center;
 }
 
-.footer__contact-hours {
+.footer__hours-container {
+  display: flex;
+  width: 40%;
+}
+
+.footer__hours {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin-right: 150px;
+  width: 100%;
 }
 
-.footer__contact-hours1 {
+.footer__hour-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__hour-details {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0;
 }
 
-.gg {
-  display: flex;
-  flex-direction: column;
-  padding: 0 10px;
+.footer__hour-days {
+  padding-bottom: 20px;
+  padding-right: 40px;
 }
 
-.ff {
-  display: flex;
-  flex-direction: row;
+.footer__hours-hours {
+  padding-right: 20px;
 }
 
-
-.footer__contact-info {
+.footer__titles {
   font-family: Verdana;
-  font-size: 12px;
+  font-size: 10px;
   color: #DB7A4E;
-  padding: 20px 0;
+  padding: 20px 0 20px 0px;
+}
+
+.footer__details {
+  font-size: 12px
+}
+
+.footer__icons {
 }
 
 .footer__contact-icon {
   width: 30px;
   height: 30px;
+  padding: ;
 }
 
 .facebook {

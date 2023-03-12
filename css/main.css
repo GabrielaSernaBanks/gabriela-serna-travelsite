@@ -1,46 +1,44 @@
-.nav__link-item--hover {
-  border-bottom: 3px solid #DB7A4E;
-  padding: 5px 0px; 
-}
 
 .hero__container {
   width: 100%;
   text-align: left;
   display: flex;
   flex-direction: row;
-  padding: 0px 80px;
+  justify-content: space-between;
+  padding: 30px 80px;
   background-color: #FEFAF5;
 }
 
 .hero__header {
-  font-size: 40px;
+  font-size: 35px;
   color: #335576;
   padding-bottom: 30px;
 }
 
 .hero__info {
-  width: 70%;
+  width: 50%;
   padding-top: 80px;
-
 }
 
-.hero__header-description {
-  
-  
-}
-
-.hero__header-button {
-
-  
-}
-
-.hero__image-logo {
-
-}
 
 .hero__image {
   width: 400px;
   margin: 0px 0;
+}
+
+.hero__header-description {
+  font-size: 12px;
+  color: #335576;
+  padding-bottom: 30px;
+}
+
+.hero__header-button {
+  border: none;
+  background-color:#DB7A4E;
+  color: #FFFF;
+  padding: 5px 30px;
+  border-radius: 30px;
+  font-size: 12px;
 }
 
 .recommendations__container {
@@ -49,24 +47,15 @@
   align-content: center;
 }
 
-/* .cards__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.card__image {
-  width: 250px;
-  height: 300px;
-} */
 .recommendations__container-header {
-  padding: 20px;
+  padding: 40px 0 0 40px;
 }
 
 .recommendation__cards {
   display: flex;
   justify-content: space-around;
-  margin: 40px 200px;
+  margin: 20px 100px;
+  padding-bottom: 50px;
 }
 
 .recommendation__card-location {
@@ -78,31 +67,35 @@
 .recommendation__card-hawaii {
   background-image: url(../assets/Images/hawaii.jpg);
   background-size: cover;
-  height: 300px;
-  width: 200px;
-  border: 1px solid black;
+  height: 360px;
+  width: 240px;
   border-radius: 5px;
-  box-shadow: 10px 10px 10px 0.25;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .recommendation__card-iceland {
   background-image: url(../assets/Images/iceland.jpg);
   background-size: cover;
-  height: 300px;
-  width: 200px;
-  border: 1px;
+  height: 360px;
+  width: 240px;
   border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .recommendation__card-greece {
   background-image: url(../assets/Images/greece.jpg);
   background-size: cover;
-  height: 300px;
-  width: 200px;
-  border: 1px;
+  height: 360px;
+  width: 240px;
   border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .recommendation__card-location-header {
   display: flex;
+  font-family: Verdana;
+  color: #FFFF;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
