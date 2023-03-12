@@ -53,6 +53,16 @@ footer {
   align-items: center;
 }
 
+h1 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 70px; 
+  color: #FFFFFF;
+}
+
+.main__container-header {
+  padding: 60px 75px;
+}
 
 h2 {
   font-family: Verdana;
@@ -60,6 +70,9 @@ h2 {
   font-size: 18px;
 }
 
+.main__container-header {
+
+}
 
 .footer__contact-hours {
   display: flex;
