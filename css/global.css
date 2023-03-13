@@ -15,6 +15,12 @@ html, body {
   padding: 10px 80px; 
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .nav__logo {
   margin-right: auto;
   align-items: center;
@@ -77,6 +83,12 @@ footer {
 
 .footer__email-container {
   padding-left: 50px;
+}
+
+.footer__email-link {
+  text-decoration: none;
+  color: #335576;
+
 }
 
 .footer__hours-container {

@@ -49,6 +49,7 @@
 
 .recommendations__container-header {
   padding: 40px 0 0 40px;
+  color: #335576;
 }
 
 .recommendation__cards {
@@ -56,6 +57,10 @@
   justify-content: space-around;
   margin: 20px 100px;
   padding-bottom: 50px;
+}
+
+.recommendation__card-link {
+  text-decoration: none;
 }
 
 .recommendation__card-location {
@@ -70,7 +75,7 @@
   height: 360px;
   width: 240px;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .recommendation__card-iceland {
