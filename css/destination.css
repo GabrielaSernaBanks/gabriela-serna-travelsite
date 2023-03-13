@@ -2,9 +2,17 @@
 background-size: cover;
 width: 100%;  
 height: 700px;
-background-image: url(../assets/Images/hawaii.jpg);
 background-position: center;
 background-repeat: no-repeat;
+}
+
+.hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+
 }
 
 .itinerary__cards-container {
