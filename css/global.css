@@ -71,6 +71,10 @@ footer {
   align-items: center;
 }
 
+.footer__email-container {
+  padding-left: 50px;
+}
+
 .footer__hours-container {
   display: flex;
   width: 40%;
@@ -113,13 +117,19 @@ footer {
   font-size: 12px
 }
 
+.footer_contact-socials {
+  width: 12%;
+}
+
 .footer__icons {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__contact-icon {
   width: 30px;
   height: 30px;
-  padding: ;
+  
 }
 
 .facebook {
