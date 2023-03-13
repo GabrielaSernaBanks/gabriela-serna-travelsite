@@ -25,6 +25,10 @@ html, body {
   color: #335576;
 }
 
+.nav__logo-link {
+  text-decoration: none;
+}
+
 .nav__link-item--hover {
   border-bottom: 3px solid #DB7A4E;
   padding: 5px 0px; 
