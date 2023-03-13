@@ -11,8 +11,11 @@ background-repeat: no-repeat;
 }
 
 .iceland {
-  background-image: url(../assets/Images/iceland.jpg);
+  background-image: url(../assets/Images/iceland.jpg)
+}
 
+.greece {
+  background-image: url(../assets/Images/greece.jpg);
 }
 
 .itinerary__cards-container {
